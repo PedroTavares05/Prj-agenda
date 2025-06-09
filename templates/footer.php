@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 //INCLUINDO A CHAMADA DO ARQUIVO URL.PHP QUE CONTÉM O PADRÃO DE DIRECIONAMENTO PARA OUTRAS PASTAS DO PROJETO
 //include_once em PHP serve para incluir um arquivo em outro, mas apenas uma vez durante a execução do script
@@ -6,11 +7,14 @@ include_once("config/url.php");
 
 ?>
 
+=======
+>>>>>>> e2f8454e5638b50728a36d784bcc9f735223dfcd
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,10 +31,14 @@ include_once("config/url.php");
     <!--DIRECIONANDO PARA A PASTA CSS -->
     <link rel="stylesheet" href="<?= $Base_url ?>css/estilos.css">
 
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>>>>>> e2f8454e5638b50728a36d784bcc9f735223dfcd
     <title>Agenda de Contatos</title>
 </head>
 
 <body>
+<<<<<<< HEAD
 
 <footer id="footer-agenda">
 
@@ -57,6 +65,9 @@ include_once("config/url.php");
         <p class="footer-text">Sistema Agenda-todos os direitos reservados - Copyright &copy;; 2025</p>
 </footer>
 
+=======
+    <h1>TESTANDO A AGENDA - ESTOU NO FOOTER</h1>
+>>>>>>> e2f8454e5638b50728a36d784bcc9f735223dfcd
 </body>
 
 </html>

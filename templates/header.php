@@ -40,7 +40,11 @@ if(isset($_SESSION['msg'])){
     <header>
         <!--Utilizando classes do bootstrap para criação de barras de navegação rápidas sem criação de CSSs-->
 
+<<<<<<< HEAD
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+=======
+        <nav class="navbar navbar-expand-ig navbar-dark bg-primary">
+>>>>>>> e2f8454e5638b50728a36d784bcc9f735223dfcd
             <a class="navbar-brand" href="<?= $Base_url ?>index.php">
                 <img src="<?= $Base_url ?>img/logo.svg" alt="Logo Agenda">
             </a>

@@ -1,5 +1,6 @@
 .navbar-brand img{
     width: 50px;
+<<<<<<< HEAD
 }
 
 /*Estilização de todas as páginas*/
@@ -126,4 +127,6 @@
 
 #redesocial-container li:hover{
     background-color: #696969;
+=======
+>>>>>>> e2f8454e5638b50728a36d784bcc9f735223dfcd
 }
