@@ -1,0 +1,30 @@
+.navbar-brand img{
+    width: 50px;
+}
+
+/*Estilização de todas as páginas*/
+#main-title{
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+#tabela-contatos{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#tabela-contatos thead th{
+    background-color: #007bff;
+    color: white;
+}
+
+/*Estilo para quando o BD estiver vazio*/
+#empty-list-text{
+    text-align: center;
+}
+
+/*Estilizando a mensagem que aparece na área da SESSION*/
+#msg{
+    background-color: rgb(44, 229, 44);
+    color: rgb(9, 126, 9);
+    border: 2px solid rgb(9, 126, 9);
+}
