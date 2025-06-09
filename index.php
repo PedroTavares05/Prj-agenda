@@ -38,8 +38,8 @@ include_once("config/processo.php");
             <?php foreach($contatos as $contatos): ?>
                 <tr>
                     <td scope="row" class="col-id"><?= $contatos["id"] ?></td>
-                    <td scope="row" class="col-id"><?= $contatos["nome"] ?></td>
-                    <td scope="row" class="col-id"><?= $contatos["tel"] ?></td>
+                    <td scope="row" class="col-name"><?= $contatos["nome"] ?></td>
+                    <td scope="row" class="col-cell"><?= $contatos["tel"] ?></td>
                     <!--INSERINDO OS ÍCONES-->
                     <td class="actions-icons">
                         <a href="#">

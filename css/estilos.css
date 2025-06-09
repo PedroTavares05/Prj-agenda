@@ -84,3 +84,46 @@
     color: darkred; /* Altera a cor ao passar o mouse */
     transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
 }
+
+#footer-agenda{
+    background-color: cadetblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    box-sizing: border-box;
+
+}
+
+
+#redesocial-container ul, #footer-links-conteiner ul{
+    list-style: none;
+    padding: 0;
+}
+
+#redesocial-container li, #footer-links-conteiner li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#redesocial-container li{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: .5s;
+    line-height: 3;
+}
+
+#redesocial-container a, #footer-links-conteiner a{
+    color: #ffffff;
+    transition: 5s;
+}
+
+#redesocial-container li i{
+    font-size: 30px;
+
+}
+
+#redesocial-container li:hover{
+    background-color: #696969;
+}
