@@ -43,7 +43,7 @@ include_once("config/processo.php");
                     <!--INSERINDO OS ÍCONES-->
                     <td class="actions-icons">
                         <a href="#">
-                            <i class="fas fa-eye check-icon"></i>
+                            <i class="fas fa-eye eye-icon"></i>
                         </a>
                         <a href="#">
                             <i class="far fa-edit edit-icon"></i>
